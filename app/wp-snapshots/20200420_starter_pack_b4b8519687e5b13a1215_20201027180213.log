@@ -1,0 +1,86 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 27.10.2020 18:02
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.38
+WORDPRESS:	5.5.1
+PHP INFO:	7.2.10 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (2048M default) 
+MEMORY STACK: 8MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20200420_starter_pack_b4b8519687e5b13a1215_20201027180213_database.sql
+SQL FILE SIZE: 71.91KB (73637)
+SQL FILE TIME: 2020-10-27 18:02:30
+SQL RUNTIME: 4.71 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  E:/Server/OSPanel/domains/tanyasite.loc/app
+ARCHIVE FILE: 20200420_starter_pack_b4b8519687e5b13a1215_20201027180213_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	107.82MB
+STATS:	Dirs 617 | Files 4,918
+SQL ADDED: 20200420_starter_pack_b4b8519687e5b13a1215_20201027180213_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5535
+    [filename] => E:\Server\OSPanel\domains\tanyasite.loc\app\wp-snapshots\tmp\20200420_starter_pack_b4b8519687e5b13a1215_20201027180213_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 5534
+[PHP ERR][NOTICE] MSG:ob_flush(): failed to flush buffer. No buffer to flush [CODE:8|FILE:E:\Server\OSPanel\domains\tanyasite.loc\app\wp-content\plugins\duplicator\classes\utilities\class.u.php|LINE:171]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 31.92MB
+ARCHIVE RUNTIME: 171.36 sec.
+MEMORY STACK: 10MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip E:/Server/OSPanel/domains/tanyasite.loc/app/wp-snapshots/tmp/20200420_starter_pack_b4b8519687e5b13a1215_20201027180213_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 71.91KB
+INSTALLER FILE: 61.32KB
+ARCHIVE FILE: 33.42MB 
+EXPECTED FILE/DIRECTORY COUNT: 5,535
+ACTUAL FILE/DIRECTORY COUNT: 5,534
+ТЕСТ ЛОГИКИ АРХИВА: Пройден
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 178.19 sec.
+PEAK PHP MEMORY USED: 10MB
+DONE PROCESSING => 20200420_starter_pack 27.10.2020 18:05
+

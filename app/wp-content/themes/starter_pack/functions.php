@@ -7,6 +7,8 @@
  * @package starter_pack
  */
 
+
+
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
 	define( '_S_VERSION', '1.0.0' );
@@ -50,8 +52,8 @@ if ( ! function_exists( 'starter_pack_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'main_menu' => esc_html__( 'main_menu', 'starter_pack' ),
-				'second_menu' => esc_html__( 'second_menu', 'starter_pack' ),
+				'right_menu' => esc_html__( 'Правое меню', 'starter_pack' ),
+				'main_page_navigation' => esc_html__( 'Навигация главная', 'starter_pack' ),
 			)
 		);
 
@@ -140,22 +142,13 @@ function starter_pack_widgets_init() {
 }
 add_action( 'widgets_init', 'starter_pack_widgets_init' );
 
-
-
 function starter_pack_scripts() {
-
-//	if(!is_admin()){
-		//wp_deregister_script('jquery');
-//	};
-
-
-	//wp_enqueue_style( 'starter_pack-style', get_stylesheet_uri() );
-	//custom styles
-	wp_enqueue_style( 'custom_style', get_template_directory_uri()  . '/assets/css/styles.min.css', false, '1.1.1' );
-	wp_enqueue_script( 'custom_js', get_template_directory_uri() . '/assets/js/scripts.min.js', array(), '1.1.1', true );
-
+  $hash_time = time();
+	wp_enqueue_style( 'custom_style', get_template_directory_uri()  . '/assets/css/styles.min.css', false, $hash_time );
+	wp_enqueue_script( 'custom_js', get_template_directory_uri() . '/assets/js/scripts.min.js', array(), $hash_time, true );
 }
 add_action( 'wp_enqueue_scripts', 'starter_pack_scripts' );
+
 
 
 
@@ -198,10 +191,10 @@ if( false and function_exists('acf_add_options_page') ) {
 	));
 }
 
-include_once( 'template-parts/function_optimized.php' );
-//include_once ('template-parts/theme_post_types.php');
-//include_once ('template-parts/images_for_taxanomies.php');
-include_once( 'template-parts/icons_pack.php' );
-include_once( 'template-parts/simple_function.php' );
-include_once( 'template-parts/menus_templates.php' );
-include_once( 'template-parts/common_parts.php' );
+include_once('inc/function_optimized.php');
+include_once('inc/simple_function.php');
+include_once('inc/theme_post_types.php');
+include_once('inc/icons_pack.php');
+
+include_once( 'template-parts/template_parats.php' );
+

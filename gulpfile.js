@@ -1,6 +1,6 @@
 var syntax = 'sass'; // Syntax: sass or scss;
 var theme_name = 'starter_pack';
-var proxy_name = 'starter.pack';
+var proxy_name = 'tanyasite.loc';
 
 var gulp = require('gulp'),
   gutil = require('gulp-util'),
@@ -46,6 +46,7 @@ gulp.task('js', function () {
     'app/wp-content/themes/' + theme_name + '/assets/libs/jquery-3.4.1.min.js',
     'app/wp-content/themes/' + theme_name + '/assets/libs/owl.carousel/owl.carousel.min.js',
     'app/wp-content/themes/' + theme_name + '/assets/libs/fancybox-master/dist/jquery.fancybox.min.js',
+    'app/wp-content/themes/' + theme_name + '/assets/libs/parallax.min.js',
     'app/wp-content/themes/' + theme_name + '/assets/libs/comments-reply.js',
     'app/wp-content/themes/' + theme_name + '/assets/libs/navigation.js',
     'app/wp-content/themes/' + theme_name + '/assets/libs/skip-link-focus-fix.js',
