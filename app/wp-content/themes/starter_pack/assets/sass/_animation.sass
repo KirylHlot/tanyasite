@@ -1,0 +1,182 @@
+@import "vars"
+
+.line
+  &.l_vertical
+    background: linear-gradient(90deg, transparent 0%, transparent 30%, rgba($white, 1) 30%, rgba($white, 1) 60%, transparent 60%, transparent 100%)
+    background-size: 400% 400%
+  &.l_horizontal
+    background: linear-gradient(0, transparent 0%, transparent 30%, rgba($white, 1) 30%, rgba($white, 1) 60%, transparent 60%, transparent 100%)
+    background-size: 400% 400%
+  &.line_01
+    animation: specialized_blick 16s linear infinite
+  &.line_02
+    animation: specialized_blick 22s linear infinite
+  &.line_03
+    animation: specialized_blick 20s linear infinite
+  &.line_04
+    animation: specialized_blick 28s reverse infinite
+
+@keyframes specialized_blick
+  0%
+    background-position: 0 0
+  50%
+    background-position: 100% 100%
+  100%
+    background-position: 0 0
+
+
+.cssload-inner
+  width: 100%
+  height: 100%
+  border-radius: 50%
+
+  &.cssload-one
+    left: 0
+    top: 0
+    animation: cssload-rotate-one 3s linear infinite
+    border-bottom: 8px solid #bdbad9
+
+  &.cssload-two
+    right: 0
+    top: 0
+    animation: cssload-rotate-two 3s linear infinite
+    border-right: 8px solid #d0add5
+
+  &.cssload-three
+    right: 0
+    bottom: 0
+    animation: cssload-rotate-three 3s linear infinite
+    border-top: 8px solid #92b6d8
+
+
+@keyframes cssload-rotate-one
+  0%
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg)
+
+  100%
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg)
+
+@keyframes cssload-rotate-two
+  0%
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg)
+
+  100%
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg)
+
+@keyframes cssload-rotate-three
+  0%
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg)
+
+  100%
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg)
+
+.big_line
+  background: linear-gradient(0, transparent 0%, transparent 30%, $white 30%, $white 60%, transparent 60%, transparent 100%)
+  background-size: 400% 400%
+  animation-direction: normal
+  &.big_line_01
+    animation: animation_blick 11s linear infinite
+  &.big_line_02
+    animation: animation_blick 18s linear infinite
+  &.big_line_03
+    animation: animation_blick 14s linear infinite
+  &.big_line_04
+    animation: animation_blick 12s linear infinite
+
+@keyframes animation_blick
+  0%
+    background-position: 0 0
+  50%
+    background-position: 100% 100%
+  100%
+    background-position: 0 0
+
+
+
+.circle_tripple_animation
+  will-change: transform
+  animation: circle_tripple_animation 10s linear infinite
+
+@keyframes circle_tripple_animation
+  0%
+    transform: rotate(0deg)
+    width: 100px
+    bottom: 0
+    left: 0
+  25%
+    width: 170px
+  50%
+    transform: rotate(180deg)
+    width: 200px
+  75%
+    width: 170px
+  100%
+    bottom: 0
+    left: 0
+    width: 100px
+    transform: rotate(360deg)
+
+
+
+.big_circl_01_anim
+  will-change: transform
+  animation: big_circl_01_anim  3s linear infinite
+
+@keyframes big_circl_01_anim
+  0%
+    transform: rotate(0deg)
+  50%
+    transform: rotate(180deg)
+  100%
+    transform: rotate(360deg)
+
+.big_circl_02_anim
+  will-change: transform
+  animation: big_circl_02_anim  4s linear infinite
+
+@keyframes big_circl_02_anim
+  0%
+    transform: rotate(0deg)
+  50%
+    transform: rotate(-180deg)
+  100%
+    transform: rotate(-360deg)
+
+
+.get_tanya_img_01_anim
+  will-change: transform
+  animation: get_tanya_img_01_anim  3s linear infinite
+
+@keyframes get_tanya_img_01_anim
+  0%
+    transform: rotate(-2deg)
+    fill: $white
+  25%
+    fill: #bdbad9
+  50%
+    transform: rotate(2deg)
+    fill: #92b6d8
+  75%
+    fill: #d0add5
+  100%
+    transform: rotate(-2deg)
+    fill: $white
+
+
+
+.elem_rotate
+  &:hover
+    svg
+      fill: $accent
+      animation: elem_rotate 1.5s ease-out infinite
+  svg
+    fill: $white
+    transition: fill .4s ease-in-out
+
+@keyframes elem_rotate
+  0%
+    transform: rotate(-5deg)
+  50%
+    transform: rotate(5deg)
+  100%
+    transform: rotate(-5deg)

@@ -2,836 +2,253 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc226961-ac01-4900-bcf5-eddac1860d29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/error_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/views/tools/import.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/views/tools/recovery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/css/admin-notifications.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/css/sb-blocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/css/sb-instagram-2-1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/css/sb-instagram-2-1.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/css/sb-instagram-2-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/css/sb-instagram-2-2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/css/sb-instagram-admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/css/sb-instagram.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/css/sb-instagram.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/css/sbi-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/css/sbi-styles.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/gpl-2.0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/api-error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/icon-full.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/icon-none.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/icon-partial.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/plugin-fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/plugin-if.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/plugin-mi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/plugin-om.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/plugin-rp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/plugin-seo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/plugin-smtp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/plugin-tw.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/plugin-wpforms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/plugin-yt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/steps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/about/team.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/balloon-120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/carousel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/highlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/insta-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/instagram-pro-promo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/loader.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/masonry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/sbi-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/sbi-oembed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/small-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/sw-screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/img/thumb-placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/admin/PluginSilentUpgrader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/admin/PluginSilentUpgraderSkin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/admin/actions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/admin/addon-functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/admin/blocks/class-sbi-blocks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/admin/class-install-skin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/admin/class-sbi-about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/admin/class-sbi-new-user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/admin/class-sbi-notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/admin/class-sbi-sitehealth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/admin/class-sbi-tracking.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/admin/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-api-connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-cron-updater.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-display-elements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-education.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-feed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-gdpr-integrations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-oembed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-parse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-post-set.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-posts-manager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-settings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-single.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/class-sb-instagram-token-refresher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/email.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/inc/if-functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/instagram-feed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/admin-notifications.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/jquery.matchHeight-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/sb-blocks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/sb-instagram-2-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/sb-instagram-2-1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/sb-instagram-2-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/sb-instagram-2-2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/sb-instagram-admin-2-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/sb-instagram-admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/sb-instagram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/sb-instagram.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/sbi-scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/js/sbi-scripts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-da_DK.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-de_DE.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-en.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-es_ES.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-fi_FI.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-fr_FR.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-it_IT.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-ja_JP.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-ko_KR.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-nl_NL.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-nn_NO.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-pt_PT.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-ru_RU.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed-sv_SE.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/languages/instagram-feed.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/templates/feed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/templates/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/templates/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/templates/item.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/widget.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/instagram-feed/wpml-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/admin-global-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/admin-global-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/adminbar-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/adminbar-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/alerts-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/alerts-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/dashboard-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/dashboard-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/edit-page-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/edit-page-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/elementor-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/elementor-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/featured-image-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/featured-image-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/filter-explanation-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/filter-explanation-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/icons-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/icons-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/inside-editor-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/inside-editor-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/metabox-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/metabox-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/metabox-primary-category-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/metabox-primary-category-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/modal-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/modal-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/monorepo-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/monorepo-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/notifications-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/notifications-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/schema-blocks-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/schema-blocks-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/score_icon-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/score_icon-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/search-appearance-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/search-appearance-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/structured-data-blocks-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/structured-data-blocks-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/toggle-switch-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/toggle-switch-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/wpseo-dismissible-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/wpseo-dismissible-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yoast-components-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yoast-components-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yoast-extensions-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yoast-extensions-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yst_plugin_tools-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yst_plugin_tools-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yst_seo_score-1550-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yst_seo_score-1550.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/src/elementor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/src/schema-blocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/admin-global-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/analysis-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/analysis-worker-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/api-client-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/babel-polyfill-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/block-editor-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/bulk-editor-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/classic-editor-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/commons-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/configuration-wizard-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/dashboard-widget-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/draft-js-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/edit-page-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/elementor-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/filter-explanation-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/help-scout-beacon-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/indexation-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/jed-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/network-admin-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/post-edit-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/quick-edit-handler-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/redux-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/reindex-links-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/schema-blocks-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/settings-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/structured-data-blocks-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/styled-components-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/term-edit-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/used-keywords-assessment-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/yoast/analysis-report-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/yoast/components-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/yoast/configuration-wizard-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/yoast/feature-flag-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/yoast/helpers-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/yoast/replacement-variable-editor-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/yoast/schema-blocks-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/yoast/search-metadata-previews-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/yoast/social-metadata-forms-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/yoast/style-guide-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/yoast/yoast-components-1550.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexing-prepare-action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/admin/elementor-edit-conditional.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/no-tool-selected-conditional.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/schema-blocks-conditional.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/semrush-enabled-conditional.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/the-events-calendar-conditional.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/third-party/w3-total-cache-conditional.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/third-party/wpml-conditional.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/third-party/wpml-wpseo-conditional.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/config/indexing-reasons.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/admin/add-keyword-modal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/admin/extension-manager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/admin/extension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/admin/extensions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/admin/keyword-synonyms-modal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/admin/license-page-manager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/admin/multiple-keywords-modal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/indexation/abstract-link-indexing-action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/indexation/indexable-complete-indexation-action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/indexation/indexable-general-indexation-action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/indexation/indexable-post-indexation-action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/indexation/indexable-post-type-archive-indexation-action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/indexation/indexable-prepare-indexation-action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/indexation/indexable-term-indexation-action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/indexation/indexation-action-interface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/indexation/post-link-indexing-action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/indexation/term-link-indexing-action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/indexing/indexable-prepare-indexation-action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/admin/indexation-integration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/admin/link-count-notification-integration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/admin/link-count-tools-integration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/presenters/admin/indexation-list-item-presenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/presenters/admin/indexation-modal-presenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/presenters/admin/indexation-permalink-warning-presenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/presenters/admin/indexation-warning-presenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/presenters/admin/link-count-indexing-list-item-presenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/presenters/admin/link-count-indexing-modal-presenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/src/presenters/open-graph/fb-app-id-presenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/generators/schema/third-party/events-calendar-schema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/indexing-helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/duplicate-post-integration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/schema-blocks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/third-party/the-events-calendar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/third-party/w3-total-cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/third-party/woocommerce-permalinks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/third-party/wpml-wpseo-notification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presenters/slack/enhanced-data-presenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/schema-templates/address.block.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/schema-templates/address.schema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/schema-templates/image.schema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/schema-templates/ingredients.block.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/schema-templates/ingredients.schema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/schema-templates/recipe.block.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/schema-templates/recipe.schema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/schema-templates/step.block.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/schema-templates/step.schema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/schema-templates/steps.block.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/schema-templates/steps.schema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/wrappers/wp-remote-handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/single-blog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/_blog_galary.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/template_parts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/03-1024x689.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/03-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/03-1536x1034.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/03-300x202.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/03-768x517.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/11-2-1024x640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/11-2-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/11-2-1536x960.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/11-2-300x188.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/11-2-768x480.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/11-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/5456173775785d7aa0f96d2.22748509-1024x768.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/5456173775785d7aa0f96d2.22748509-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/5456173775785d7aa0f96d2.22748509-300x225.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/5456173775785d7aa0f96d2.22748509-768x576.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/5456173775785d7aa0f96d2.22748509.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-1024x576.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-1536x864.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-2048x1152.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-300x169.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-768x432.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-e1608065183975-1024x576.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-e1608065183975-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-e1608065183975-1536x864.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-e1608065183975-2048x1152.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-e1608065183975-300x169.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-e1608065183975-768x432.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123-e1608065183975.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/about123.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/dekor-sten-na-kukhne_5c5d603cd4f30-1024x710.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/dekor-sten-na-kukhne_5c5d603cd4f30-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/dekor-sten-na-kukhne_5c5d603cd4f30-1536x1065.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/dekor-sten-na-kukhne_5c5d603cd4f30-300x208.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/dekor-sten-na-kukhne_5c5d603cd4f30-768x532.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/dekor-sten-na-kukhne_5c5d603cd4f30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/interer-komnata-kvartira-4059-1024x681.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/interer-komnata-kvartira-4059-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/interer-komnata-kvartira-4059-1536x1022.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/interer-komnata-kvartira-4059-2048x1363.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/interer-komnata-kvartira-4059-300x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/interer-komnata-kvartira-4059-768x511.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/interer-komnata-kvartira-4059-scaled.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/interer-komnata-kvartira-4059.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3516628-1024x683.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3516628-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3516628-1536x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3516628-2048x1365.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3516628-300x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3516628-768x512.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3516628-scaled.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3516628.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3600167-1024x683.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3600167-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3600167-1536x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3600167-2048x1365.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3600167-300x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3600167-768x512.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3600167-scaled.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/3600167.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/IKEA-la-cultissime-bibliotheque-Billy-a-40-ans-retour-en-images-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/IKEA-la-cultissime-bibliotheque-Billy-a-40-ans-retour-en-images-233x300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/IKEA-la-cultissime-bibliotheque-Billy-a-40-ans-retour-en-images-768x988.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/IKEA-la-cultissime-bibliotheque-Billy-a-40-ans-retour-en-images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/asdasdasdasd-1024x683.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/asdasdasdasd-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/asdasdasdasd-1536x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/asdasdasdasd-2048x1365.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/asdasdasdasd-300x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/asdasdasdasd-768x512.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/asdasdasdasd-scaled.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/asdasdasdasd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/fa701e09304c50b52daaf32a0d1e9d42-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/fa701e09304c50b52daaf32a0d1e9d42-300x186.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/fa701e09304c50b52daaf32a0d1e9d42-768x477.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/2021/01/fa701e09304c50b52daaf32a0d1e9d42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/20901917_1925672527682226_541959353029099520_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/20901917_1925672527682226_541959353029099520_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/20969058_169802800254463_1611536347242168320_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/20969058_169802800254463_1611536347242168320_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/20986710_2041657266092958_5169369362691260416_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/20986710_2041657266092958_5169369362691260416_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/21149522_313207945818739_4431331133258465280_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/21149522_313207945818739_4431331133258465280_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/21689373_1900231016965041_3169252875909988352_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/21689373_1900231016965041_3169252875909988352_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/21689864_138468330105070_1838413497822609408_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/21689864_138468330105070_1838413497822609408_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/21827245_753719464820196_4461834231512825856_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/21827245_753719464820196_4461834231512825856_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/22499946_178541029376649_4997575163387052032_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/22499946_178541029376649_4997575163387052032_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/23421847_1593925197331797_9218387061587836928_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/23421847_1593925197331797_9218387061587836928_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/23507223_369650640130238_4683163946499178496_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/23507223_369650640130238_4683163946499178496_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/23668113_149000659187665_1200104765485219840_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/23668113_149000659187665_1200104765485219840_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/23970037_1504549352965747_1908205870274052096_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/23970037_1504549352965747_1908205870274052096_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/24126343_732460116943083_3256139170954870784_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/24126343_732460116943083_3256139170954870784_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/24332448_351491851928164_4770877512374812672_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/24332448_351491851928164_4770877512374812672_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/25013580_175825146489553_6034917710784102400_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/25013580_175825146489553_6034917710784102400_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/25025749_178563689561391_5236352487228702720_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/25025749_178563689561391_5236352487228702720_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/26305294_554676661531762_8729794932069367808_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/26305294_554676661531762_8729794932069367808_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/43650061_2036485653095156_5572584620753102028_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/43650061_2036485653095156_5572584620753102028_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/50815356_593276117839486_8538858748586353140_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/50815356_593276117839486_8538858748586353140_nlow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/50860474_318891588745721_4085804920048553996_nfull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/uploads/sb-instagram-feed-images/50860474_318891588745721_4085804920048553996_nlow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_animation.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/amdefine/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/amdefine/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/amdefine/amdefine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/amdefine/intercept.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/amdefine/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ansi-red/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ansi-red/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ansi-red/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ansi-red/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/argparse/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/argparse/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/argparse/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/argparse/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/argparse/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/arr-diff/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/arr-diff/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/arr-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/arr-diff/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/asynckit/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/asynckit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/asynckit/bench.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/asynckit/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/asynckit/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/asynckit/parallel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/asynckit/serial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/asynckit/serialOrdered.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/asynckit/stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/base64id/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/base64id/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/base64id/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/base64id/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/boolbase/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/boolbase/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/boolbase/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/callsite/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/callsite/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/callsite/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/callsite/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/callsite/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/callsite/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/caseless/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/caseless/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/caseless/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/caseless/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/caseless/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css-tree/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css-tree/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css-tree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css-tree/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css-what/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/defaults/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/domutils/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/esprima/ChangeLog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/esprima/LICENSE.BSD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/esprima/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/esprima/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/extglob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/extglob/changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/extglob/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/extglob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/figures/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/figures/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/find-up/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/find-up/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/find-up/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/find-up/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/for-own/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/for-own/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/for-own/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/for-own/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fstream/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fstream/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fstream/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fstream/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fstream/fstream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fstream/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/getpass/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/getpass/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/getpass/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/getpass/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/getpass/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/globule/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/globule/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/globule/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/globule/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/globule/LICENSE-MIT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/globule/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/globule/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gulplog/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gulplog/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gulplog/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gulplog/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gulplog/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/indexof/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/indexof/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/indexof/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/indexof/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/indexof/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/indexof/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-gzip/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-gzip/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-gzip/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-utf8/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-utf8/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-utf8/is-utf8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-utf8/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isarray/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isarray/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isarray/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-yaml/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-yaml/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-yaml/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-yaml/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-yaml/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jsonify/README.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jsonify/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jsonify/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/kind-of/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/kind-of/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/kind-of/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/kind-of/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/kind-of/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/liftoff/CHANGELOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/liftoff/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/liftoff/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/liftoff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/liftoff/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/limiter/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/limiter/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/limiter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/limiter/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/limiter/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/limiter/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/limiter/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/logalot/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/logalot/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/logalot/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/logalot/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/longest/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/longest/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/longest/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/longest/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/map-obj/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/map-obj/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/map-obj/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/map-obj/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mime-db/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mime-db/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mime-db/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mime-db/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mime-db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mime-db/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/natives/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/natives/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/natives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/natives/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/onetime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/onetime/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/onetime/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/onetime/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openurl/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openurl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openurl/openurl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openurl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/p-queue/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/p-queue/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/p-queue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/p-queue/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parseqs/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parseqs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parseqs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parseqs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parseqs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parseqs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parseqs/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/postcss/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/postcss/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/postcss/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/postcss/README-cn.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/postcss/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/postcss/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/postcss/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/rechoir/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/rechoir/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/rechoir/CHANGELOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/rechoir/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/rechoir/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/rechoir/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/rechoir/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/request/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/request/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/request/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/request/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/request/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/request/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve/readme.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sigmund/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sigmund/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sigmund/bench.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sigmund/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sigmund/sigmund.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tildify/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tildify/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tildify/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tildify/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/unquote/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/unquote/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/unquote/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/unquote/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/unquote/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/v8flags/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/v8flags/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/v8flags/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/v8flags/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/v8flags/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/wrap-fn/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/wrap-fn/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/wrap-fn/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/wrap-fn/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/yallist/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/yallist/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/yallist/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/yallist/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/yallist/yallist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/ajax-search-lite.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/ajax-search-lite.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/backend/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/backend/settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/backend/settings/default_options.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/backend/settings/default_options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/backend/tabs/instance/general/behavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/backend/tabs/instance/general/behavior.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/backend/tabs/instance/general/sources.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/backend/tabs/instance/general/sources.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style.basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style.basic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/classes/actions/class-asl-cookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/classes/actions/class-asl-cookies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/classes/actions/class-asl-stylesheets.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/classes/actions/class-asl-stylesheets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/classes/core/class-asl-filters.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/classes/core/class-asl-filters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/classes/core/class-asl-init.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/classes/core/class-asl-init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/classes/filters/class-asl-etc_fixes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/classes/filters/class-asl-etc_fixes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/classes/search/search_content.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/classes/search/search_content.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/functions/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/functions/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/views/asl.shortcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/views/asl.shortcode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/views/keyword-suggestions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/includes/views/keyword-suggestions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/js/min-scoped/jquery.ajaxsearchlite.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/js/min-scoped/jquery.ajaxsearchlite.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/js/min/jquery.ajaxsearchlite.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/js/min/jquery.ajaxsearchlite.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/js/nomin-scoped/jquery.ajaxsearchlite.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/js/nomin-scoped/jquery.ajaxsearchlite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/js/nomin/jquery.ajaxsearchlite.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/js/nomin/jquery.ajaxsearchlite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/languages/ajax-search-lite-en_EN.mo" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/languages/ajax-search-lite-en_EN.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/languages/ajax-search-lite-en_EN.po" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/languages/ajax-search-lite-en_EN.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/languages/ajax-search-lite-en_EN.pot" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/languages/ajax-search-lite-en_EN.pot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/languages/ajax-search-lite-hu_HU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/languages/ajax-search-lite-hu_HU.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/languages/ajax-search-lite-hu_HU.po" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/languages/ajax-search-lite-hu_HU.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/Button-visually-impaired.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/bvi-admin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/bvi-admin.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/bvi.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/bvi.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/bvi.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/js/bvi-admin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/js/bvi-admin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/js/bvi-init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/js/bvi-init.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/js/bvi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/js/bvi.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/js/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/js/js.cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/js/js.cookie.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/pages/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/pages/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/uninstall.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/classes/class.archive.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/classes/class.archive.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/classes/class.logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/classes/class.logging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/classes/package/class.pack.database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/classes/package/class.pack.database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/classes/package/class.pack.installer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/classes/package/class.pack.installer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/classes/package/class.pack.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/classes/package/class.pack.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/define.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/define.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/duplicator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/duplicator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/class.logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/class.logging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/class.s3.func.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/class.s3.func.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/class.server.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/class.server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/config/class.archive.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/config/class.archive.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/config/class.boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/config/class.boot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/config/class.constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/config/class.constants.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/utilities/class.u.notices.manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/utilities/class.u.notices.manager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/utilities/class.u.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/classes/utilities/class.u.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/ctrls/ctrl.s2.dbinstall.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/ctrls/ctrl.s2.dbinstall.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/views/view.s1.base.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/views/view.s1.base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/views/view.s2.base.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/views/view.s2.base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/views/view.s2.basic.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/dup-installer/views/view.s2.basic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/installer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/installer/installer.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/lib/snaplib/class.snaplib.u.io.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/lib/snaplib/class.snaplib.u.io.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/uninstall.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/uninstall.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/views/packages/main/s1.setup2.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/views/packages/main/s1.setup2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/views/settings/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/views/settings/controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/views/settings/general.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/views/settings/general.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/views/settings/gopro.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/views/settings/gopro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/views/tools/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/duplicator/views/tools/controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/print-o-matic/print-o-matic.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/print-o-matic/print-o-matic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/print-o-matic/printomat.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/print-o-matic/printomat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/print-o-matic/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/print-o-matic/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/ajax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-add-keyword-modal.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-admin-asset-manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-admin-asset-manager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-admin-editor-specific-replace-vars.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-admin-editor-specific-replace-vars.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-admin-init.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-admin-init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-extension-manager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-extension.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-extensions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-gutenberg-compatibility.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-gutenberg-compatibility.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-keyword-synonyms-modal.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-license-page-manager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-meta-columns.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-meta-columns.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-multiple-keywords-modal.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-yoast-columns.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-yoast-columns.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-yoast-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-yoast-form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-yoast-input-validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-yoast-input-validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-yoast-plugin-conflict.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/class-yoast-plugin-conflict.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/formatter/class-metabox-formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/formatter/class-metabox-formatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/formatter/class-post-metabox-formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/formatter/class-post-metabox-formatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/menu/class-admin-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/menu/class-admin-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/menu/class-base-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/menu/class-base-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/menu/class-network-admin-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/menu/class-network-admin-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/pages/licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/pages/licenses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-metabox.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-metabox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-settings-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-settings-data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/views/class-yoast-feature-toggles.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/views/class-yoast-feature-toggles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/views/licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/views/licenses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/views/tabs/metas/paper-content/post-type-content.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/views/tabs/metas/paper-content/post-type-content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/views/tabs/network/general.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/views/tabs/network/general.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/views/tabs/social/facebook.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/admin/views/tabs/social/facebook.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/admin-global-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/admin-global-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/adminbar-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/adminbar-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/alerts-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/alerts-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/dashboard-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/dashboard-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/edit-page-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/edit-page-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/featured-image-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/featured-image-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/filter-explanation-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/filter-explanation-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/icons-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/icons-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/inside-editor-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/inside-editor-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/metabox-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/metabox-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/metabox-primary-category-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/metabox-primary-category-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/modal-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/modal-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/monorepo-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/monorepo-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/notifications-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/notifications-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/score_icon-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/score_icon-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/search-appearance-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/search-appearance-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/structured-data-blocks-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/structured-data-blocks-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/toggle-switch-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/toggle-switch-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/wpseo-dismissible-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/wpseo-dismissible-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yoast-components-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yoast-components-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yoast-extensions-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yoast-extensions-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yst_plugin_tools-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yst_plugin_tools-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yst_seo_score-1511-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/dist/yst_seo_score-1511.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/src/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/css/src/modal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-addon-manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-addon-manager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-upgrade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-upgrade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-wpseo-admin-bar-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-wpseo-admin-bar-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-wpseo-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-wpseo-meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-wpseo-replace-vars.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-wpseo-replace-vars.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-wpseo-utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/class-wpseo-utils.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/date-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/date-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-ms.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-ms.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-social.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-social.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-wpseo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-wpseo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-taxonomy-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-taxonomy-meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/sitemaps/class-author-sitemap-provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/sitemaps/class-author-sitemap-provider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/sitemaps/class-post-type-sitemap-provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/sitemaps/class-post-type-sitemap-provider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/admin-global-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/analysis-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/analysis-worker-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/api-client-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/babel-polyfill-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/block-editor-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/bulk-editor-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/classic-editor-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/commons-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/components-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/configuration-wizard-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/dashboard-widget-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/draft-js-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/edit-page-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/filter-explanation-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/help-scout-beacon-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/indexation-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/jed-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/network-admin-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/post-edit-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/quick-edit-handler-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/redux-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/reindex-links-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/settings-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/structured-data-blocks-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/styled-components-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/term-edit-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/js/dist/used-keywords-assessment-1511.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-cs_CZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-cs_CZ.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_BE.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_BE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_CA.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_CA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-gl_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-gl_ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-he_IL.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-he_IL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-hu_HU.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-hu_HU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nl_NL.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nl_NL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-tr_TR.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-tr_TR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-zh_CN.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seo-zh_CN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-bg_BG.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-bg_BG.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-bs_BA.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-bs_BA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-cs_CZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-cs_CZ.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-da_DK.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-da_DK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-de_DE.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-de_DE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-el.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_AU.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_AU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_CA.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_CA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_GB.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_GB.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_NZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_NZ.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_ZA.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_ZA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_AR.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_AR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_CR.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_CR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_MX.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_MX.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_PE.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_PE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_VE.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_VE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fa_IR.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fa_IR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fr_BE.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fr_BE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fr_CA.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fr_CA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fr_FR.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fr_FR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-gl_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-gl_ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-he_IL.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-he_IL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-hi_IN.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-hi_IN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-hr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-hu_HU.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-hu_HU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-id_ID.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-id_ID.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-it_IT.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-it_IT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ko_KR.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ko_KR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-nb_NO.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-nb_NO.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-nl_BE.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-nl_BE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-nl_NL.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-nl_NL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pl_PL.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pl_PL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pt_AO.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pt_AO.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pt_BR.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pt_BR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pt_PT.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pt_PT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ro_RO.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ro_RO.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ru_RU.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ru_RU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-sk_SK.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-sk_SK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-sr_RS.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-sr_RS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-sv_SE.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-sv_SE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-tr_TR.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-tr_TR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-uk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-vi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-zh_CN.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-zh_CN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-zh_TW.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-zh_TW.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/wordpress-seojs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-cs_CZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-cs_CZ.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-fi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-fr_CA.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-fr_CA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-fr_FR.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-fr_FR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-hu_HU.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-hu_HU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-nl_NL.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-nl_NL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-tr_TR.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-tr_TR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-zh_CN.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components-zh_CN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/languages/yoast-components.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/lib/orm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/lib/orm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/release-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/release-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexables/indexable-head-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexables/indexable-head-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/abstract-link-indexing-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/abstract-link-indexing-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-general-indexation-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-general-indexation-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-indexing-complete-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-indexing-complete-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-post-indexation-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-post-indexation-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-post-type-archive-indexation-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-post-type-archive-indexation-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-prepare-indexation-action.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-term-indexation-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-term-indexation-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexation-action-interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexation-action-interface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexing-complete-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/indexing-complete-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/post-link-indexing-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/post-link-indexing-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/term-link-indexing-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/indexing/term-link-indexing-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/semrush/semrush-options-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/semrush/semrush-options-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/semrush/semrush-phrases-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/actions/semrush/semrush-phrases-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/builders/indexable-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/builders/indexable-builder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/builders/indexable-link-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/builders/indexable-link-builder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/builders/indexable-post-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/builders/indexable-post-builder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/builders/indexable-rebuilder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/commands/index-command.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/commands/index-command.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/admin/posts-overview-or-ajax-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/admin/posts-overview-or-ajax-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/breadcrumbs-enabled-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/breadcrumbs-enabled-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/front-end-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/front-end-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/headless-rest-endpoints-enabled-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/headless-rest-endpoints-enabled-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/jetpack-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/jetpack-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/migrations-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/migrations-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/open-graph-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/open-graph-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/primary-category-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/primary-category-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/should-index-links-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/should-index-links-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/web-stories-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/web-stories-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/woocommerce-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/woocommerce-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/wpml-conditional.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/xmlrpc-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/xmlrpc-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/yoast-admin-and-dashboard-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/conditionals/yoast-admin-and-dashboard-conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/config/schema-types.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/config/schema-types.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/config/semrush-client.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/config/semrush-client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/context/meta-tags-context.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/context/meta-tags-context.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/inc/sitemaps/class-sitemap-timezone.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/inc/sitemaps/class-sitemap-timezone.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/indexation-integration.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/indexation-list-item-presenter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/indexation-modal-presenter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/indexation-permalink-warning-presenter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/indexation-warning-presenter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/link-count-indexing-list-item-presenter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/link-count-indexing-modal-presenter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/link-count-notification-integration.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/deprecated/link-count-tools-integration.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/exceptions/oauth/authentication-failed-exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/exceptions/oauth/authentication-failed-exception.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/exceptions/semrush/tokens/empty-property-exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/exceptions/semrush/tokens/empty-property-exception.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/exceptions/semrush/tokens/failed-storage-exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/exceptions/semrush/tokens/failed-storage-exception.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/generated/container.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/generated/container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/generators/breadcrumbs-generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/generators/breadcrumbs-generator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/generators/schema-generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/generators/schema-generator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/generators/schema/breadcrumb.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/generators/schema/breadcrumb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/current-page-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/current-page-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/date-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/date-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/indexable-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/indexable-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/language-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/language-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/meta-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/meta-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/options-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/options-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/post-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/post-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/post-type-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/post-type-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/short-link-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/short-link-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/site-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/site-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/string-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/string-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/taxonomy-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/taxonomy-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/url-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/url-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/woocommerce-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/helpers/woocommerce-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/initializers/migration-runner.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/initializers/migration-runner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/admin/admin-columns-cache-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/admin/admin-columns-cache-integration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/admin/background-indexing-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/admin/background-indexing-integration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/admin/disable-concatenate-scripts-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/admin/disable-concatenate-scripts-integration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/admin/indexing-notification-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/admin/indexing-notification-integration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/admin/indexing-tool-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/admin/indexing-tool-integration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/admin/link-count-columns-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/admin/link-count-columns-integration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/breadcrumbs-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/breadcrumbs-integration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/front-end-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/front-end-integration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/primary-category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/primary-category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/third-party/web-stories.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/third-party/web-stories.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/third-party/wpml.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/third-party/wpml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-category-permalink-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-category-permalink-watcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-homeurl-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-homeurl-watcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-permalink-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-permalink-watcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-post-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-post-watcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-term-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-term-watcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/watchers/option-wpseo-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/watchers/option-wpseo-watcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/xmlrpc.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/integrations/xmlrpc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/models/seo-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/models/seo-meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presentations/indexable-home-page-presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presentations/indexable-home-page-presentation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presentations/indexable-post-type-presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presentations/indexable-post-type-presentation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presentations/indexable-presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presentations/indexable-presentation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presenters/admin/indexing-failed-notification-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presenters/admin/indexing-failed-notification-presenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presenters/admin/indexing-notification-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presenters/admin/indexing-notification-presenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presenters/admin/meta-fields-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presenters/admin/meta-fields-presenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presenters/bingbot-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presenters/bingbot-presenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presenters/googlebot-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presenters/googlebot-presenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/presenters/open-graph/fb-app-id-presenter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/repositories/indexable-repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/repositories/indexable-repository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/repositories/primary-term-repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/repositories/primary-term-repository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/routes/abstract-indexation-route.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/routes/abstract-indexation-route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/routes/indexables-head-route.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/routes/indexables-head-route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/routes/indexing-route.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/routes/indexing-route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/routes/semrush-route.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/routes/semrush-route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/routes/yoast-head-rest-field.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/routes/yoast-head-rest-field.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/surfaces/helpers-surface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/surfaces/helpers-surface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/surfaces/meta-surface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/surfaces/meta-surface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/surfaces/values/meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/surfaces/values/meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/values/open-graph/images.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/values/open-graph/images.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/values/semrush/semrush-token.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/values/semrush/semrush-token.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/wordpress/wrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/src/wordpress/wrapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/yoast/license-manager/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/yoast/license-manager/class-api-request.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/yoast/license-manager/class-license-manager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/yoast/license-manager/class-plugin-license-manager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/yoast/license-manager/class-plugin-update-manager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/yoast/license-manager/class-product.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/yoast/license-manager/class-update-manager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/yoast/license-manager/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/yoast/license-manager/views/form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/yoast/license-manager/views/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor/yoast/license-manager/views/script.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/polyfill-intl-idn/Idn.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/polyfill-intl-idn/bootstrap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/wp-seo-main.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/wp-seo-main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/wp-seo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wordpress-seo/wp-seo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/inc/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/inc/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/inc/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/inc/cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/inc/cdn.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/inc/cdn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/inc/css-utilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/inc/css-utilities.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/inc/js-utilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/inc/js-utilities.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/templates/cdn/file_types.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/templates/cdn/file_types.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/wpFastestCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-fastest-cache/wpFastestCache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/css/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/scriptsscripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/scriptsscripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_reset.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_reset.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_vars.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/inc/function_optimized.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/inc/function_optimized.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/inc/icons_pack.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/inc/icons_pack.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/inc/theme_post_types.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/inc/theme_post_types.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/_common_parts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/_menus_templates.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/_menus_templates.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/template_parats.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/main_page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/specialized_bg-1024x584.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/specialized_bg-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/specialized_bg-1536x876.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/specialized_bg-2048x1168.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/specialized_bg-300x171.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/specialized_bg-768x438.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/specialized_bg-scaled.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/uploads/2020/12/specialized_bg.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -872,6 +289,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -924,7 +342,7 @@
       <workItem from="1609765957035" duration="2722000" />
       <workItem from="1610306069100" duration="4839000" />
       <workItem from="1610561966560" duration="3205000" />
-      <workItem from="1611080041765" duration="9497000" />
+      <workItem from="1611080041765" duration="10624000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1608060447190</created>
@@ -933,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608060447190</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit1">
+      <created>1611093691819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611093691819</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -957,6 +382,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Commit1" />
+    <MESSAGE value="Commit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit2" />
   </component>
 </project>
