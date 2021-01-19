@@ -32,6 +32,11 @@ if (!class_exists("WD_ASL_StyleSheets_Action")) {
                     return;
             }
 
+            $exit1 = apply_filters('asl_load_css_js', false);
+            $exit2 = apply_filters('asl_load_css', false);
+            if ($exit1 || $exit2)
+                return false;
+
             add_action('wp_head', array($this, 'inlineCSS'), 10, 0);
 
 
@@ -163,7 +168,7 @@ if (!class_exists("WD_ASL_StyleSheets_Action")) {
                     width: 100%;
                     background: #D8D8D8;
                 }
-                div.asl_r.asl_w.vertical .results .item.asp_last_item::after {
+                div.asl_r.asl_w.vertical .results .item.asl_last_item::after {
                     display: none;
                 }
                 ";

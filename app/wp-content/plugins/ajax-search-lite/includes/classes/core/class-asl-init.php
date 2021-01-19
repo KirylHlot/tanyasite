@@ -178,6 +178,11 @@ class WD_ASL_Init {
             }
         }
 
+        $exit1 = apply_filters('asl_load_css_js', false);
+        $exit2 = apply_filters('asl_load_js', false);
+        if ( $exit1 || $exit2 )
+            return false;
+
         // ------------ Dequeue some scripts causing issues on the back-end --------------
         wp_dequeue_script( 'otw-admin-colorpicker' );
         wp_dequeue_script( 'otw-admin-select2' );
@@ -205,7 +210,7 @@ class WD_ASL_Init {
             wp_enqueue_script('wpdreams-gestures');
             wp_register_script('wpdreams-highlight', ASL_URL . 'js/' . $js_source . '/jquery.highlight.js', array($prereq), ASL_CURR_VER_STRING, $load_in_footer);
             wp_enqueue_script('wpdreams-highlight');
-            if ($load_mcustom) {
+            if ( $load_mcustom ) {
                 wp_register_script('wpdreams-scroll', ASL_URL . 'js/' . $js_source . '/simplebar.js', array($prereq), ASL_CURR_VER_STRING, $load_in_footer);
                 wp_enqueue_script('wpdreams-scroll');
             }
@@ -338,6 +343,15 @@ class WD_ASL_Init {
     public function pluginWipe() {
         // Options
         $this->pluginReset( false );
+
+        // Additional options
+        $options = array(
+            'asl_options',
+            'asl_version',
+            'asl_debug_data'
+        );
+        foreach ($options as $o)
+            delete_option($o);
 
         // Database
         wd_asl()->db->delete();

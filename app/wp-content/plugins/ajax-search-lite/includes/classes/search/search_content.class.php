@@ -38,10 +38,14 @@ if ( ! class_exists( 'wpdreams_searchContent' ) ) {
             $wcl = '%'; // Wildcard Left
             $wcr = '%'; // Wildcard right
             if ( $options['set_exactonly'] == 1 ) {
-                if ( $sd['exact_match_location'] == 'start' )
+                if ( $sd['exact_match_location'] == 'start' ) {
                     $wcl = '';
-                else if ( $sd['exact_match_location'] == 'end' )
+                } else if ( $sd['exact_match_location'] == 'end' ) {
                     $wcr = '';
+                } else if ( $sd['exact_match_location'] == 'full' ) {
+                    $wcr = '';
+                    $wcl = '';
+                }
             }
 
 			if ( isset($options['non_ajax_search']) )
@@ -59,6 +63,13 @@ if ( ! class_exists( 'wpdreams_searchContent' ) ) {
             $post_statuses = "'".implode( "','", $post_statuses_arr )."'";
 			$post_statuses = "( $wpdb->posts.post_status IN ($post_statuses) )";
 			/*---------------------------------------------------------------*/
+
+            /*------------------------- Paswword ----------------------------*/
+            $post_password_query = '';
+            if ( $sd['post_password_protected'] == 0 ) {
+                $post_password_query = " AND ( $wpdb->posts.post_password = '' )";
+            }
+            /*---------------------------------------------------------------*/
 
 			/*----------------------- Gather Types --------------------------*/
 			if ($options['set_inposts'] == 1)
@@ -389,7 +400,7 @@ if ( ! class_exists( 'wpdreams_searchContent' ) ) {
             $woo_visibility_query = '';
             if ( class_exists('WooCommerce') && ( $sd['exclude_woo_hidden'] == 1 || $sd['exclude_woo_catalog'] == 1 ) ) {
                 // Check if this is version > 3.0
-                if ( asp_woo_version_check('3.0') ) {
+                if ( asl_woo_version_check('3.0') ) {
                     $exclude = array();
                     if ( $sd['exclude_woo_hidden'] == 1 )
                         $exclude[] = 'exclude-from-search';
@@ -613,6 +624,7 @@ if ( ! class_exists( 'wpdreams_searchContent' ) ) {
                 $woo_visibility_query
                 $cf_select
             AND $post_statuses
+    	    $post_password_query
             AND $term_query
             AND {like_query}
             $exclude_posts

@@ -1,7 +1,7 @@
 <?
 function the_top_menu()
 { ?>
-  <nav id="top_menu" class="top_menu">
+  <nav id="top_menu" class="top_menu <?= is_single() ? "single" : ""; ?>">
     <? if (is_front_page()) { ?>
       <span class="logo_wrapper">
         <?= get_main_logo(); ?>

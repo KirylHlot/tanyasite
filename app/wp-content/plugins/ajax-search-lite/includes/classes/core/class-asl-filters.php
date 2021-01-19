@@ -73,10 +73,10 @@ if ( !class_exists("WD_ASL_Filters") ) {
                 "args"  => 1
             ),
             array(
-                "filter" => "asp_result_after_prostproc",
-                "handler" => array("EtcFixes", "plug_DownloadMonitorLink"),
-                "priority"    => 999999999,
-                "args"  => 2
+                "filter" => "asl_load_js",
+                "handler" => array("EtcFixes", "fixOxygenEditorJS"),
+                "priority"    => 999,
+                "args"  => 1
             )
         );
 

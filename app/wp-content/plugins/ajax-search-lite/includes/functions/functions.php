@@ -805,8 +805,8 @@ if (!function_exists("wpdreams_get_blog_list")) {
   }
 }
 
-if (!function_exists('asp_woo_version_check')) {
-    function asp_woo_version_check($version = '3.0') {
+if (!function_exists('asl_woo_version_check')) {
+    function asl_woo_version_check($version = '3.0') {
         if (class_exists('WooCommerce')) {
             global $woocommerce;
             if (isset($woocommerce, $woocommerce->version) &&
@@ -824,36 +824,43 @@ if (!function_exists('asp_woo_version_check')) {
 // 6. NON-AJAX RESULTS
 //----------------------------------------------------------------------------------------------------------------------
 
-if ( !class_exists("asl_dummyPost") )  {
+if ( !class_exists("ASL_Post") )  {
     /**
-     * Class asl_dummyPost
+     * Class ASL_Post
      *
      * A default class to instantiate to generate post like results.
      */
-    class asl_dummyPost {
+    class ASL_Post {
 
-        public $ID = -10;
+        public $ID = 0;                     // Don't use negative value, because WPML will break into pieces
         public $post_title = "";
         public $post_author = "";
         public $post_name = "";
         public $post_type = "post";         // Everything unknown is going to be a post
-        public $post_date = "";             // Format: 0000-00-00 00:00:00
-        public $post_date_gmt = "";         // Format: 0000-00-00 00:00:00
-        public $post_content = "";          // The full content of the post
+        public $post_date = '0000-00-00 00:00:00';             // Format: 0000-00-00 00:00:00
+        public $post_date_gmt = '0000-00-00 00:00:00';         // Format: 0000-00-00 00:00:00
+        public $post_content = '';          // The full content of the post
+        public $post_content_filtered = '';
         public $post_excerpt = "";          // User-defined post excerpt
         public $post_status = "publish";    // See get_post_status for values
         public $comment_status = "closed";  // Returns: { open, closed }
         public $ping_status = "closed";     // Returns: { open, closed }
         public $post_password = "";         // Returns empty string if no password
         public $post_parent = 0;            // Parent Post ID (default 0)
+        public $post_mime_type = '';
+        public $to_ping = '';
+        public $pinged = '';
         public $post_modified = "";         // Format: 0000-00-00 00:00:00
         public $post_modified_gmt = "";     // Format: 0000-00-00 00:00:00
         public $comment_count = 0;          // Number of comments on post (numeric string)
         public $menu_order = 0;             // Order value as set through page-attribute when enabled (numeric string. Defaults to 0)
         public $guid = "";
         public $asl_guid;
+        public $asl_id;
+        public $asl_data;                   // All the original results data
+        public $blogid;
 
-        function __construct() {}
+        public function __construct() {}
     }
 }
 
@@ -868,7 +875,7 @@ if ( !function_exists("asl_results_to_wp_obj") ) {
      * @return array
      */
     function asl_results_to_wp_obj($results, $from = 0, $count = "all") {
-        if (empty($results))
+        if ( empty($results) )
             return array();
 
         if ($count == "all")
@@ -888,66 +895,97 @@ if ( !function_exists("asl_results_to_wp_obj") ) {
 
         foreach ($results_slice as $r) {
 
-            if (is_multisite())
-                switch_to_blog($r->blogid);
+            $switched_blog = false;
 
             if ( !isset($r->content_type) ) continue;
 
             switch ($r->content_type) {
+                case "attachment":
                 case "pagepost":
                     $res = get_post($r->id);
+                    $res->asl_guid = get_permalink($r->id);
+                    $r->link = $res->asl_guid;
+                    $r->url = $res->asl_guid;
+                    $res->asl_id = $r->id;  // Save the ID in case needed for some reason
+                    /**
+                     * On multisite the page and other post type links are filtered in such a way
+                     * that the post type object is reset with get_post(), deleting the ->asl_guid
+                     * attribute. Therefore the post type post must be enforced.
+                     */
+                    if ( is_multisite() && $res->post_type != 'post' ) {
+                        // Is this a WooCommerce search?
+                        if (
+                        !(
+                            in_array($res->post_type, array('product', 'product_variation')) &&
+                            isset($_GET['post_type']) &&
+                            $_GET['post_type'] == 'product'
+                        )
+                        ) {
+                            $res->post_type = 'post'; // Enforce
+                            if ( $switched_blog )
+                                $res->ID = -10;
+                        }
+                    }
                     break;
                 case "blog":
-                    $res = new asl_dummyPost();
+                    $res = new ASL_Post();
                     $res->post_title = $r->title;
                     $res->asl_guid = $r->link;
                     $res->post_content = $r->content;
                     $res->post_excerpt = $r->content;
                     $res->post_date = $current_date;
+                    $res->asl_id = $r->id;
+                    $res->ID = -10;
                     break;
                 case "bp_group":
-                    $res = new asl_dummyPost();
-                    $res->post_title = $r->title;
-                    $res->asl_guid = $r->link;
-                    $res->post_content = $r->content;
-                    $res->post_excerpt = $r->content;
-                    $res->post_date = $r->date;
-                    break;
                 case "bp_activity":
-                    $res = new asl_dummyPost();
+                    $res = new ASL_Post();
                     $res->post_title = $r->title;
                     $res->asl_guid = $r->link;
                     $res->post_content = $r->content;
                     $res->post_excerpt = $r->content;
                     $res->post_date = $r->date;
+                    $res->asl_id = $r->id;
+                    $res->ID = -10;
                     break;
                 case "comment":
                     $res = get_post($r->post_id);
                     if (isset($res->post_title)) {
                         $res->post_title = $r->title;
                         $res->asl_guid = $r->link;
+                        $res->asl_id = $r->id;
                         $res->post_content = $r->content;
                         $res->post_excerpt = $r->content;
                     }
                     break;
                 case "term":
-                    $res = new asl_dummyPost();
-                    $res->post_title = $r->title;
-                    $res->asl_guid = $r->link;
-                    $res->guid = $r->link;
-                    $res->post_date = $current_date;
-                    break;
                 case "user":
-                    $res = new asl_dummyPost();
+                    $res = new ASL_Post();
                     $res->post_title = $r->title;
                     $res->asl_guid = $r->link;
                     $res->guid = $r->link;
                     $res->post_date = $current_date;
+                    $res->asl_id = $r->id;
+                    $res->ID = -10;
+                    break;
+                case "peepso_group":
+                    if ( class_exists('PeepSoGroup') ) {
+                        $pg = new PeepSoGroup($r->id);
+                        $res = get_post($r->id);
+                        $res->asl_guid = $pg->get_url();
+                        $res->asl_id = $r->id;  // Save the ID in case needed for some reason
+                    }
+                    break;
+                case "peepso_activity":
+                    $res = get_post($r->id);
+                    $res->asl_guid = get_permalink($r->id);
+                    $res->asl_id = $r->id;  // Save the ID in case needed for some reason
                     break;
             }
 
-            if (!empty($res)) {
-                $res = apply_filters("asl_regular_search_result", $res);
+            if ( !empty($res) ) {
+                $res->asl_data = $r;
+                $res = apply_filters("asl_regular_search_result", $res, $r);
                 $wp_res_arr[] = $res;
             }
 
@@ -956,5 +994,41 @@ if ( !function_exists("asl_results_to_wp_obj") ) {
         }
 
         return $wp_res_arr;
+    }
+}
+
+if ( !function_exists("get_asl_result_field") ) {
+    function get_asl_result_field($field = 'all') {
+        global $post;
+
+        if ( !is_string($field) )
+            return false;
+
+        if ($field === 'all') {
+            if (isset($post, $post->asl_data)) {
+                return $post->asl_data;
+            } else {
+                return false;
+            }
+        } else {
+            if (isset($post, $post->asl_data) && property_exists($post->asl_data, $field)) {
+                return $post->asl_data->{$field};
+            } else {
+                return false;
+            }
+        }
+    }
+}
+if ( !function_exists("the_asl_result_field") ) {
+    function the_asl_result_field( $field = 'title', $echo = true ) {
+        if ( $echo ) {
+            if ( !is_string($field) )
+                return;
+            $print = $field == 'all' ? '' : get_asl_result_field($field);
+            if ( $print !== false )
+                echo $print;
+        } else {
+            return get_asl_result_field($field);
+        }
     }
 }

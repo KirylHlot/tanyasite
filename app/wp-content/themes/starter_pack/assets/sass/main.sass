@@ -101,6 +101,7 @@
       width: auto
       height: 100%
       fill: $white
+      filter: $white_shadow
 
   .contacts_block
     width: fit-content
@@ -113,6 +114,7 @@
     a
       font-weight: bold
       font-size: 18px
+      filter: $white_shadow
 
     span
       margin: 0 10px
@@ -132,6 +134,7 @@
     svg
       width: 38px
       height: 32px
+      filter: $white_shadow
 
   .show_right_menu
     position: absolute
@@ -149,14 +152,15 @@
     svg
       width: 38px
       height: 24px
-
+      filter: $white_shadow
 
 .right_menu
   position: fixed
   top: 0
   right: -100%
   width: 25vw
-  height: 100vh
+  height: auto
+  min-height: 100vh
   padding: 3vw 3vw 100px
   z-index: 101
   background-color: $right_menu_bg
@@ -277,6 +281,7 @@
       display: block
       width: 100%
       height: 100%
+      filter: $white_shadow
 
       svg
         width: 30px
@@ -295,6 +300,7 @@
   flex-direction: column
   justify-content: center
   align-items: center
+
   li
     width: 30px
     height: 30px
@@ -302,6 +308,7 @@
     justify-content: center
     align-items: center
     transition: all .3s ease-in-out
+
     a
       display: block
       width: 15px
@@ -311,9 +318,11 @@
       font-size: 0
       color: $color-none
       transition: all .5s ease-in-out
+      filter: $white_shadow
+
       &.active
-        width: 18px
-        height: 18px
+        width: 22px
+        height: 22px
         background-color: #92b6d8
 
 
@@ -323,6 +332,7 @@
   padding-top: 70px
   overflow: hidden
   background: linear-gradient(160deg, #bdbad9, #d0add5, #92b6d8)
+
   .main_wrapper
     height: 100%
     position: relative
@@ -344,6 +354,7 @@
       flex-direction: row
       margin-bottom: .5vw
       font-weight: bold
+
       li
         margin-right: 1.5vw
         position: relative
@@ -458,21 +469,636 @@
       left: 60%
       top: -50vh
       transform: rotate(35deg)
+
       &.big_line_02
         left: calc(60% + 20px)
+
       &.big_line_03
         left: calc(60% + 60px)
+
       &.big_line_04
         left: calc(60% + 120px)
 
 
-.specialized, .mp_callback
+.specialized
   width: 100%
-  height: 100vh
+  height: auto
+  min-height: 100vh
   background-position: left bottom
   background-size: cover
   background-repeat: no-repeat
+  background-attachment: fixed
+  box-shadow: $box_shadow_inset
+
+  .h2_title
+    text-shadow: 1px 2px rgba(#92b6d8, .3)
+    color: $blue
+
+  .main_wrapper
+    padding-left: 20%
+    position: relative
+    z-index: 2
+
+  .card_list
+    width: 100%
+    height: auto
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    position: relative
+
+    .card
+      width: 48%
+      height: auto
+      margin-right: 4%
+      background-color: $white
+      margin-bottom: 30px
+      display: flex
+      flex-direction: row
+      box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0
+      color: $right_menu_bg
+      font-weight: 500
+      border-radius: 2px
+
+      &:hover
+        opacity: 1
+        box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px
+
+        .more
+          color: $accent !important
+
+        .left_part
+          .has_mask
+            right: -100px
+
+      &:nth-child(2n)
+        margin-right: 0
+
+        .left_part
+          svg
+            top: -32px
+
+      .left_part
+        width: 25%
+        height: auto
+        position: relative
+        overflow: hidden
+
+        .get_card_bg
+          width: 451px
+          height: 430px
+          position: absolute
+          right: 0
+          top: -74px
+          transition: right .5s ease-in-out
+
+          image
+            width: auto
+            height: 100%
+
+          .stripe1
+            fill: white
+
+      .right_part
+        width: 75%
+        height: auto
+        padding: 20px 20px 50px
+        position: relative
+
+        .title
+          font-size: 20px
+          font-weight: bold
+          margin-bottom: 20px
+
+          &:first-letter
+            color: $accent
+
+        .desc
+          line-height: 20px
+          font-size: 15px
+
+          span
+            background-color: $accent
+            color: $white
+
+        .more
+          position: absolute
+          right: 20px
+          bottom: 20px
+          font-weight: bold
+          text-decoration: underline
+          color: $right_menu_bg
+
+.specialized_scene_prlx
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  right: 0
+  z-index: 1
+
+  .cssload-loader
+    position: absolute
+    z-index: 2
+    right: 5vw
+    bottom: 5vw
+    width: 100px
+    height: 100px
+    perspective: 780px
+
+    .cssload-inner
+      position: absolute
+
+  .line
+    position: absolute
+    z-index: 1
+
+    &.l_vertical
+      width: 100%
+      height: 1px
+      left: 0
+
+      &.line_01
+        top: 4vw
+
+      &.line_02
+        bottom: 4vw
+
+    &.l_horizontal
+      width: 1px
+      height: 100%
+      top: 0
+
+      &.line_03
+        left: 4vw
+
+      &.line_04
+        right: 4vw
+
+.portfolio
+  width: 100%
+  height: 70vh
+  background-color: $white
+  color: $black
+
+  .full_width_wrapper
+    height: 100%
+
+  .h2_title
+    display: none
+
+  .category_list
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: row
+
+    a
+      display: block
+      position: relative
+      width: 100%
+      height: 100%
+      border-right: 1px solid $white
+      overflow: hidden
+
+      &:after, &:before
+        content: ''
+        display: block
+        position: absolute
+        transition: all .4s ease-in-out
+        width: calc(80% + 3px)
+        height: 90%
+        z-index: 2
+
+      &:after
+        border-top: 1px solid $white
+        border-bottom: 1px solid $white
+        left: -100%
+        bottom: 5%
+
+      &:before
+        border-left: 1px solid $white
+        border-right: 1px solid $white
+        bottom: -100%
+        left: 10%
+
+      &:hover
+        opacity: 1
+
+        &:after
+          left: 10%
+
+        &:before
+          bottom: 5%
+
+        .bgimg
+          background-size: auto 140%
+          filter: grayscale(0) brightness(110%)
+
+        .title
+          background-color: $right_menu_bg
+          color: $white
+
+      .bgimg
+        position: absolute
+        z-index: 1
+        width: 100%
+        height: 100%
+        display: block
+        left: 0
+        top: 0
+        background-size: auto 105%
+        background-position: center
+        background-repeat: no-repeat
+        transition: all 1s linear
+        filter: grayscale(1)
+
+      .title
+        position: absolute
+        z-index: 3
+        width: 50%
+        height: 50px
+        top: 5vw
+        left: 25%
+        display: flex
+        justify-content: center
+        align-items: center
+        background-color: $white
+        transition: all .4s ease-in-out
 
 
+.insta
+  width: 100%
+  height: auto
+  position: relative
+  background-color: $right_menu_bg
+  background: linear-gradient(160deg, #bdbad9, #d0add5, #92b6d8)
+
+  .insta_scene
+    position: absolute
+    height: 100%
+    top: 0
+    left: 0
+    z-index: 1
+    width: 40vw
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+
+    &:after
+      content: ''
+      width: 80%
+      height: 80%
+      position: absolute
+      top: 10%
+      left: 10%
+      display: block
+      z-index: 1
+      box-shadow: $box_shadow_inset
+      border-radius: 2px
+
+    .insta_title
+      width: 60%
+      height: auto
+      position: relative
+      z-index: 2
+      filter: $white_shadow
+
+      &:after
+        content: ''
+        position: absolute
+        width: 100%
+        height: 1px
+        background-color: $white
+        left: 0
+        bottom: 1.5vw
+        display: block
+
+      .get_instagram_full_logo
+        fill: $white
+        width: 100%
+        height: auto
+
+    .insta_content
+      font-size: 20px
+      font-weight: bold
+      z-index: 2
+
+  .full_width_wrapper
+    z-index: 2
+    position: relative
+
+    .sbi
+      padding-left: 39vw
+      display: block
+
+      #sbi_images
+        width: 100%
+        height: auto
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: flex-end
+
+        .sbi_item
+          width: 10vw
+          height: 10vw
+
+          .sbi_photo_wrap
+            width: 100%
+            height: 100%
+
+            a
+              width: 100%
+              height: 100%
+              display: flex
+              justify-content: center
+              align-items: center
+              overflow: hidden
+              position: relative
+              filter: grayscale(1)
+              opacity: 1 !important
+              transition: filter .3s ease-in-out
+
+              &:hover
+                opacity: 1 !important
+                filter: grayscale(0)
+
+                .sbi-screenreader
+                  left: 10px
+
+              .sbi-screenreader
+                display: none
+
+              img
+                display: none
+
+
+.single-blog
+  background-color: #EAEAEA
+
+.blog_wrapper
+  width: 100%
+  height: auto
+  min-height: calc(100vh - 70px)
+
+  .blog_aside
+    width: 30vw
+    height: 100vh
+    position: fixed
+    z-index: 2
+    top: 0
+    right: 0
+    display: flex
+    align-items: center
+    overflow: hidden
+    box-shadow: $box_shadow
+
+    .bg_img
+      position: absolute
+      width: 110%
+      height: 110%
+      top: -5%
+      left: -5%
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+      display: block
+      z-index: 1
+
+    .content_block
+      width: 100%
+      height: 100%
+      position: absolute
+      top: 0
+      left: 0
+      z-index: 3
+      display: flex
+      justify-content: center
+      align-items: center
+      flex-direction: column
+      padding: 30% 15px
+      background-color: rgba($black, .5)
+
+      .date, .categories
+        width: 100%
+        height: auto
+        font-size: 20px
+        text-align: center
+
+      .date
+        position: relative
+        padding-bottom: 20px
+
+        &:before
+          content: ''
+          display: block
+          position: absolute
+          width: 30%
+          height: 1px
+          background-color: $white
+          left: 35%
+          bottom: 0
+
+      .title
+        text-align: center
+        font-size: 30px
+        line-height: 39px
+        font-weight: bold
+        color: $white
+        text-shadow: 1px 2px rgba($black, .7)
+        position: relative
+        padding: 20px 0
+        margin-bottom: 20px
+
+        &:before
+          content: ''
+          display: block
+          position: absolute
+          width: 60%
+          height: 1px
+          background-color: $white
+          left: 20%
+          bottom: 0
+
+
+    .single_blog_wrapper
+      width: 70vw
+      margin-right: auto
+
+
+  .single_blog_wrapper
+    width: 70vw
+    height: auto
+    padding: 2vw 4vw
+    color: $right_menu_bg
+
+    .blog_title_line
+      width: 90%
+      height: auto
+      text-align: center
+      margin: 0 auto 60px
+
+      .pretitle
+        width: 50%
+        height: auto
+        position: relative
+        font-size: 18px
+        margin: 0 auto 10px
+        padding-bottom: 10px
+
+        &:after
+          content: ''
+          display: block
+          position: absolute
+          width: 100px
+          height: 1px
+          background-color: $black
+          bottom: 0
+          left: calc(50% - 50px)
+
+
+      .main_title
+        font-size: 32px
+        font-weight: 400
+
+    .main_img
+      width: 100%
+      height: 350px
+      margin-bottom: 60px
+      background-size: cover
+      background-position: center
+      background-repeat: no-repeat
+      box-shadow: $box_shadow
+
+  .preview_block
+    margin-bottom: 80px
+
+
+.the_content
+  width: 100%
+  height: auto
+  p
+    font-size: 20px
+    line-height: 29px
+    margin-bottom: 29px
+  img
+    box-shadow: $box_shadow
+  h2
+    font-size: 28px
+    margin-bottom: 40px
+    font-weight: 400
+  h3
+    font-size: 24px
+    margin-bottom: 40px
+    font-weight: 400
+  ul
+    width: 95%
+    height: auto
+    margin: 40px 0 40px auto
+    li
+      font-size: 20px
+      line-height: 27px
+      margin-bottom: 20px
+      list-style-type: disc
+      &:last-child
+        margin-bottom: 0
+  blockquote
+    width: 100%
+    height: auto
+    margin: 40px 0 40px auto
+    font-style: italic
+    display: block
+    position: relative
+    padding-left: 5%
+    &:before
+      content: ''
+      width: 4px
+      height: 100%
+      background-color: $accent
+      top: 0
+      left: 0
+      position: absolute
+    &:after
+      content: '"'
+      display: inline-block
+      font-size: 60px
+      position: absolute
+      top: -10px
+      left: 10px
+      font-weight: bold
+      color: $accent
+
+  i, em
+    font-style: italic
+
+.the_blog_galary_wrapper
+  width: 100%
+  height: auto
+  margin-bottom: 40px
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  .column
+    width: 32%
+    height: 450px
+    box-shadow: $box_shadow
+    &.doble
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+    .colm
+      width: 100%
+      height: 49%
+    &.galary_carousel_wrapper
+      position: relative
+      z-index: 1
+      .get_galary_icon
+        fill: $white
+        z-index: 2
+        position: absolute
+        top: 10px
+        right: 10px
+        width: 30px
+        height: 30px
+        filter: $white_shadow
+      .blog_galary, .owl-stage-outer, .owl-stage, .owl-item
+        position: relative
+        height: 100%
+        z-index: 1
+        a
+          display: block
+          position: relative
+          width: 100%
+          height: 100%
+          background-position: center
+          background-size: cover
+          background-repeat: no-repeat
+      .galary_carousel_navs
+        z-index: 2
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        width: 100%
+        height: auto
+        position: absolute
+        bottom: 0
+        left: 0
+        padding: 0 10px
+        .navs
+          width: 50%
+          height: 30px
+          display: flex
+          align-items: center
+          cursor: pointer
+          &.galary_carousel_right_nav
+            justify-content: flex-end
+          svg
+            width: auto
+            height: 20px
+            fill: $white
+            filter: $white_shadow
 @import "media"
 @import "animation"

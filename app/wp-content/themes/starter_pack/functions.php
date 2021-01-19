@@ -196,5 +196,5 @@ include_once('inc/simple_function.php');
 include_once('inc/theme_post_types.php');
 include_once('inc/icons_pack.php');
 
-include_once( 'template-parts/template_parats.php' );
+include_once('template-parts/template_parts.php');
 

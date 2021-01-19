@@ -106,6 +106,7 @@ function asl_do_init_options() {
         'searchincontent' => 1,
         'searchinexcerpt' => 1,
         'search_in_permalinks' => 0,
+        'post_password_protected' => 1,
         'search_in_ids' => 0,
         'search_all_cf' => 0,
         'customfields' => "",

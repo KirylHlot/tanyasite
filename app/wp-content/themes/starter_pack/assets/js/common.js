@@ -48,6 +48,15 @@ if (document.getElementById('promo_scene_prlx')) {
   });
 }
 
+if (document.getElementById('blog_aside')) {
+  var blog_aside = document.getElementById('blog_aside');
+  var blogAsideInstance = new Parallax(blog_aside, {
+    relativeInput: true,
+    hoverOnly: false,
+    selector: '.prlx',
+  });
+}
+
 
 //прокрутка
 
@@ -82,6 +91,63 @@ if (document.getElementById('main_page_navigation')) {
     return false;
   });
 }
+
+
+//карусели
+
+if (document.getElementById('galary_carousel')) {
+
+  var galary_carousel = $(".galary_carousel");
+  galary_carousel.owlCarousel({
+    loop: false,
+    rewind: true,
+    autoplay: false,
+    nav: false,
+    margin: 0,
+    padding: 0,
+    dots: false,
+    items: 1
+  });
+
+  $(".galary_carousel_left_nav").click(function () {
+    galary_carousel.trigger("prev.owl.carousel");
+  });
+
+  $(".galary_carousel_right_nav").click(function () {
+    galary_carousel.trigger("next.owl.carousel");
+  });
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ///////////////////////////////////////////////////////

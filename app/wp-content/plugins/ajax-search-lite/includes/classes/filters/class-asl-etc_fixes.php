@@ -14,24 +14,6 @@ if (!class_exists("WD_ASL_EtcFixes_Filter")) {
      * @author        Ernest Marcinko
      */
     class WD_ASL_EtcFixes_Filter extends WD_ASL_Filter_Abstract {
-
-        /**
-         * Fix for the Download Monitor plugin download urls
-         *
-         * @param $r
-         * @param $sid
-         * @return mixed
-         */
-        function plug_DownloadMonitorLink($r, $sid) {
-            if ( $r->post_type == "dlm_download" && class_exists("DLM_Download") ) {
-                $dl = new DLM_Download($r->id);
-                if ( $dl->exists() ) {
-                    $r->link = $dl->get_the_download_link();
-                }
-            }
-            return $r;
-        }
-
         /**
          * Executes search shortcodes when placed as menu titles
          *
@@ -49,6 +31,17 @@ if (!class_exists("WD_ASL_EtcFixes_Filter")) {
                 }
             }
             return $menu_items;
+        }
+
+        /**
+         * Fix for the Oxygen builder plugin editor error console
+         */
+        function fixOxygenEditorJS( $exit ) {
+            if ( isset($_GET['ct_builder']) ) {
+                return true;
+            }
+
+            return false;
         }
 
         // ------------------------------------------------------------

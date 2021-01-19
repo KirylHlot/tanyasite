@@ -5,7 +5,7 @@ defined('ABSPATH') or die("You can't access this file directly.");
 /**
  * This is the default template for the keyword suggestions
  *
- * The keyword should must always hold the 'asp_keyword' class and only
+ * The keyword should must always hold the 'asl_keyword' class and only
  * contain the keyword text as the content.
  *
  * You can use any WordPress function here.

@@ -784,7 +784,7 @@
 
             if ( $this.o.overridewpdefault ) {
                 if ( $this.o.override_method == "post") {
-                    asp_submit_to_url($this.o.homeurl + url, 'post', {
+                    asl_submit_to_url($this.o.homeurl + url, 'post', {
                         asl_active: 1,
                         p_asl_data: $('form', $this.n.searchsettings).serialize()
                     }, _loc);
@@ -796,7 +796,7 @@
                         open_in_new_tab(_url)
                 }
             } else {
-                asp_submit_to_url($this.o.homeurl + url, 'post', {
+                asl_submit_to_url($this.o.homeurl + url, 'post', {
                     np_asl_data: $('form', $this.n.searchsettings).serialize()
                 }, _loc);
             }
@@ -976,7 +976,7 @@
 
                             if ( $this.o.overridewpdefault ) {
                                 if ( $this.o.override_method == "post") {
-                                    asp_submit_to_url($this.o.homeurl + url, 'post', {
+                                    asl_submit_to_url($this.o.homeurl + url, 'post', {
                                         asl_active: 1,
                                         p_asl_data: $('form', $this.n.searchsettings).serialize()
                                     });
@@ -984,7 +984,7 @@
                                     location.href = $this.o.homeurl + url + "&asl_active=1&p_asid=" + $this.o.id + "&p_asl_data=" + Base64.encode($('form', $this.n.searchsettings).serialize());
                                 }
                             } else {
-                                asp_submit_to_url($this.o.homeurl + url, 'post', {
+                                asl_submit_to_url($this.o.homeurl + url, 'post', {
                                     np_asl_data: $('form', $this.n.searchsettings).serialize()
                                 });
                             }
@@ -996,7 +996,7 @@
                 if ( jqXHR.aborted || textStatus == 'abort' )
                     return;
                 $this.n.resdrg.html("");
-                $this.n.resdrg.html('<div class="asp_nores">The request failed. Please check your connection! Status: ' + jqXHR.status + '</div>');
+                $this.n.resdrg.html('<div class="asl_nores">The request failed. Please check your connection! Status: ' + jqXHR.status + '</div>');
                 $this.n.items = $('.item', $this.n.resultsDiv);
                 $this.hideLoader();
                 $this.showResults();
@@ -1178,7 +1178,7 @@
                 $this.resize();
 
                 // Mark the last item
-                $this.n.items.last().addClass('asp_last_item');
+                $this.n.items.last().addClass('asl_last_item');
 
                 if ($this.o.highlight == 1) {
                     var wholew = (($this.o.highlightwholewords == 1) ? true : false);
@@ -1502,7 +1502,7 @@
         return encodeURIComponent(s).replace(/\%20/g, '+');
     }
 
-    function asp_submit_to_url(action, method, input, target) {
+    function asl_submit_to_url(action, method, input, target) {
         'use strict';
         var form;
         form = $('<form />', {

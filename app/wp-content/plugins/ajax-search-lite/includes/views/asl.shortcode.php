@@ -355,7 +355,11 @@ if ( function_exists('qtranxf_getLanguage') ) {
 ?>
 <?php ob_start(); ?>
 {
-    "homeurl": "<?php echo function_exists("pll_home_url") ? @pll_home_url() : home_url("/"); ?>",
+    <?php if ( is_admin() ): ?>
+    "homeurl": "<?php echo home_url("/"); ?>",
+    <?php else: ?>
+    "homeurl": "<?php echo function_exists("pll_home_url") ? PLL()->links->get_home_url( '', true ) : home_url("/"); ?>",
+    <?php endif; ?>
     "resultstype": "vertical",
     "resultsposition": "hover",
     "itemscount": <?php echo ((isset($style['itemscount']) && $style['itemscount']!="")?$style['itemscount']:"10"); ?>,

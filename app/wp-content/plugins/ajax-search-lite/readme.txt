@@ -3,8 +3,8 @@ Contributors: wpdreams
 Donate link: http://wp-dreams.com
 Tags: search, better wordpress search, search plugin, relevance search, widget, Post, ajax search, search filter, wp ajax search, custom fields search, better search, ajax search plugin, wp search, wp search plugin, filter, relevant search plugin, wordpress search, Live Search, shortcode, google, autocomplete, suggest, woocommerce, woocommerce search, product, product search, custom search, ajax, suggest, autosuggest, search autocomplete, live, plugin, sidebar, product tag search, products, woocommerce tag search, WooCommerce Plugin, shop, search by sku, relevant search, highlight, term, image, custom search, ecommerce, Predictive Search, search product, shop, typehead, suggest, instant-search
 Requires at least: 3.5
-Tested up to: 5.5
-Stable tag: 4.8.4
+Tested up to: 5.6
+Stable tag: 4.8.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -105,6 +105,19 @@ and will let you know what to do.
 2. Administrator area - nice and smooth
 
 == Changelog ==
+= 4.8.6 =
+* Added: get_asl_result_field and the_get_asl_result_field functions
+* Reset/Wipe options now work correctly
+* Issue on multisite results pages
+* Fixed missing script files from previous commit
+
+= 4.8.5 =
+* Option to exclude Password protected posts
+* Exact matching - Full exact matching added (mathing a field exactly, from start to the end)
+* asl_load_css, asl_load_js and asl_load_css_js hooks - when returns true, the JS, CSS or both are stopped from loading
+* WP 5.6 compatible
+* Image parsing on multisite - now automatically tries to fetch the images from across blogs on the results page
+
 = 4.8.4 =
 * Option to exclude WooCommerce hidden catalog products
 * Fixed issues with the singleton class structures:   https://wordpress.org/support/topic/feature-requests-177/#post-13145770

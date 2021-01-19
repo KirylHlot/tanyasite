@@ -79,6 +79,11 @@
         <?php echo __('Comma separated list. WP Defaults: publish, future, draft, pending, private, trash, auto-draft', 'ajax-search-lite'); ?>
     </p>
 </div>
+<div class="item it_engine_index">
+    <?php $o = new wpdreamsYesNo("post_password_protected", __('Search and return password protected posts?', 'ajax-search-lite'), $sd['post_password_protected']);
+    $params[$o->getName()] = $o->getData();
+    ?>
+</div>
 <div class="item">
     <?php
     $o = new wpdreamsYesNo("searchinterms", __("Search in terms? (categories, tags)", "ajax-search-lite"),

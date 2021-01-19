@@ -7,9 +7,10 @@
     $o = new wpdreamsCustomSelect('exact_match_location', "..and match fields against the search phrase",
         array(
             'selects' => array(
-                array('option' => 'Anywhere', 'value' => 'anywhere'),
-                array('option' => 'Starting with phrase', 'value' => 'start'),
-                array('option' => 'Ending with phrase', 'value' => 'end')
+                array('option' => __('Anywhere', 'ajax-search-lite'), 'value' => 'anywhere'),
+                array('option' => __('Starting with phrase', 'ajax-search-lite'), 'value' => 'start'),
+                array('option' => __('Ending with phrase', 'ajax-search-lite'), 'value' => 'end'),
+                array('option' => __('Complete match', 'ajax-search-lite'), 'value' => 'full')
             ),
             'value' => $sd['exact_match_location']
         ));

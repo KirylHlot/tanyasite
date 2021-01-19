@@ -17,7 +17,7 @@ if (!class_exists("WD_ASL_Cookies_Action")) {
 
         public function handle() {
             // Forcefully unset the cookies, if requested
-            if ( isset($_GET['asp_unset_cookies']) ) {
+            if ( isset($_GET['asl_unset_cookies']) ) {
                 $parse = parse_url(get_bloginfo('url'));
                 $host = $parse['host'];
                 setcookie('asl_data', '', time() - 7200, '/', $host, is_ssl() );

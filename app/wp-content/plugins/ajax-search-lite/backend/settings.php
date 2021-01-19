@@ -29,7 +29,7 @@ $_dk = 'asl_defaults';
     <div class="wpdreams-box" style='vertical-align: middle;'>
         <a class='gopro' href='https://wp-dreams.com/go/?to=asp_demo_gopro' target='_blank'>Get the pro version!</a>
         <a class="whypro" href="#">Why Pro?</a>
-        &nbsp;|&nbsp;Maybe leave a like :)
+        &nbsp;|&nbsp;
         <div style='display: inline-block;' class="fb-like" data-href="https://www.facebook.com/pages/WPDreams/383702515034741" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
         or you can follow me
         <a href="https://twitter.com/ernest_marcinko" class="twitter-follow-button" data-show-count="false">Follow @ernest_marcinko</a>
