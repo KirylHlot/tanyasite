@@ -2,3 +2,8 @@
 include_once('_menus_templates.php');
 include_once('_social_list.php');
 include_once('_blog_galary.php');
+include_once('_author_block.php');
+include_once('_comments_block.php');
+include_once('_read_also_block.php');
+include_once('_about_short.php');
+include_once('_portfolio_short.php');

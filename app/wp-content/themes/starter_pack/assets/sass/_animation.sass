@@ -1,5 +1,48 @@
 @import "vars"
 
+.filll_anim
+  .fil0
+    animation: filll_anim_blick 8s infinite
+  .fil2
+    animation: filll_anim_blick 12s infinite
+  .fil1
+    animation: filll_anim_blick 16s infinite
+
+
+
+
+@keyframes filll_anim_blick
+  0%
+    fill: transparent
+  10%
+    fill: #275B8F
+
+  20%
+    fill: $blue
+  30%
+    fill: $accent
+
+  40%
+    fill: $blue
+
+  50%
+    fill: $white
+  60%
+    fill: $white
+  70%
+    fill: #275B8F
+
+  80%
+    fill: $blue
+  90%
+    fill: $accent
+
+  100%
+    fill: transparent
+
+
+
+
 .line
   &.l_vertical
     background: linear-gradient(90deg, transparent 0%, transparent 30%, rgba($white, 1) 30%, rgba($white, 1) 60%, transparent 60%, transparent 100%)

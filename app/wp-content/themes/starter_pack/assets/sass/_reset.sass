@@ -10,6 +10,9 @@
 
 *
   box-sizing: border-box
+  div, a
+    border-radius: 4px
+
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
   margin: 0
@@ -115,7 +118,8 @@ body
   &.right_menu_showed
     .right_menu
       right: 0
-
+  &.single-blog
+    background: linear-gradient(90deg, rgba($blue, .1) 0%, rgba($white,1) 100%)
 
 section, header
   height: auto
@@ -149,13 +153,40 @@ section, header
     right: -5px
     bottom: -5px
 
+h2
+  font-size: 40px
+  line-height: 50px
+  text-shadow: $text_shadow
+  color: $blue
+
 .title_line
-  width: 100%
-  height: auto
-  margin-bottom: 40px
-  .h2_title
-    font-size: 40px
-    line-height: 50px
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: space-between
+  margin-bottom: 50px
+  a
+    width: fit-content
+    display: flex
+    flex-direction: row
+    align-items: center
+    color: $blue
+    &:hover
+      text-decoration: underline
+      svg
+        right: -3px
+    svg
+      width: 7px
+      height: auto
+      fill: $blue
+      margin-left: 6px
+      position: relative
+      top: 1px
+      right: 0
+      opacity: .8
+      transition: right .5s ease-in-out
+
+
 
 .bgproperty
   background-size: cover

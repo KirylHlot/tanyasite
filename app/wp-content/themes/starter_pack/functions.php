@@ -49,6 +49,9 @@ if ( ! function_exists( 'starter_pack_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
+    add_image_size( 'logo80', 80, 80, false );
+
+
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
@@ -180,16 +183,15 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 
 //page acf options
-if( false and function_exists('acf_add_options_page') ) {
+if( function_exists('acf_add_options_page') ) {
 
-	acf_add_options_page(array(
-		'page_title' => 'Данные сайта',
-		'menu_title' => 'Общие поля сайта',
-		'menu_slug' => 'site-settings',
-		'capability' => 'edit_posts',
-		'redirect' => false
-	));
+  acf_add_options_page();
+
 }
+
+add_action( 'after_setup_theme', function() {
+  add_theme_support( 'pageviews' );
+});
 
 include_once('inc/function_optimized.php');
 include_once('inc/simple_function.php');

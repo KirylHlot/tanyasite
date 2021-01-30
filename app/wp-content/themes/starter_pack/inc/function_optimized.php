@@ -66,3 +66,4 @@ function sbi_remove_resources() {
   wp_dequeue_style('sb_instagram_styles');
   wp_dequeue_script('sb_instagram_scripts');
 }
+

@@ -27,7 +27,7 @@ function add_blog_post_type(){
     'hierarchical'       => false,
     'menu_position'      => null,
     'menu_icon'          => 'dashicons-layout',
-    'supports'           => array('title','editor', 'thumbnail', 'custom-fields', 'post-formats'),
+    'supports'           => array('title', 'editor', 'comments'),
   ) );
 }
 add_action('init', 'add_blog_post_type');

@@ -754,7 +754,16 @@ if (document.getElementById('blog_aside')) {
   });
 }
 
-
+if (document.getElementById('about_short_wrapper')) {
+  var about_short_wrapper = document.getElementById('about_short_wrapper');
+  var about_short_wrapper_instance = new Parallax(about_short_wrapper, {
+    relativeInput: true,
+    hoverOnly: true,
+    selector: '.prlx',
+    invertX: false,
+    invertY: false,
+  });
+}
 //прокрутка
 
 if (document.getElementById('main_page_navigation')) {
@@ -816,36 +825,45 @@ if (document.getElementById('galary_carousel')) {
 
 }
 
+/////// comments button
+
+if (document.getElementById('respond')) {
+  var author_input = document.getElementById('author');
+  var comment_input = document.getElementById('comment');
+  var submit_input = document.getElementById('submit');
+  var author_wrapper_link = document.getElementsByClassName('author_wrapper');
+
+  if (author_wrapper_link && author_wrapper_link.length > 0) {
+    for (author_link of author_wrapper_link) {
+      author_link.addEventListener('click', function (e) {
+        e.preventDefault();
+      })
+    }
+  }
+
+  if (author_input) {
+    author_input.addEventListener('input', function () {
+      submit_input.disabled = !checkField();
+    });
+  } else {
+    author_input = comment_input;
+  }
 
 
+  comment_input.addEventListener('input', function () {
+    submit_input.disabled = !checkField();
+  });
 
 
+  function checkField() {
+    return author_input.value.length > 3 && comment_input.value.length > 10;
+  }
+
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let $dots = $('.owl-dot');
+$dots.attr('aria-label', 'owl carousel');
 
 ///////////////////////////////////////////////////////
 $(document).ready(function () {
@@ -918,11 +936,6 @@ function closeLeftMenuByMissClick(blockname, function_name) {
     t.is(e.target) || 0 !== t.has(e.target).length || function_name
   })
 }
-
-
-let $dots = $('.owl-dot');
-$dots.attr('aria-label', 'owl carousel');
-
 
 
 //preloader

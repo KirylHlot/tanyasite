@@ -491,7 +491,7 @@
   box-shadow: $box_shadow_inset
 
   .h2_title
-    text-shadow: 1px 2px rgba(#92b6d8, .3)
+    text-shadow: $text_shadow
     color: $blue
 
   .main_wrapper
@@ -835,8 +835,7 @@
                 display: none
 
 
-.single-blog
-  background-color: #EAEAEA
+
 
 .blog_wrapper
   width: 100%
@@ -907,7 +906,7 @@
         line-height: 39px
         font-weight: bold
         color: $white
-        text-shadow: 1px 2px rgba($black, .7)
+        text-shadow: $text_shadow
         position: relative
         padding: 20px 0
         margin-bottom: 20px
@@ -932,7 +931,17 @@
     width: 70vw
     height: auto
     padding: 2vw 4vw
-    color: $right_menu_bg
+    margin-right: auto
+    &.main
+      color: $right_menu_bg
+    &.foot
+      background-color: $blue
+      color: $color_strong
+
+
+
+    .preview_block
+      margin-bottom: 80px
 
     .blog_title_line
       width: 90%
@@ -963,6 +972,7 @@
         font-size: 32px
         font-weight: 400
 
+
     .main_img
       width: 100%
       height: 350px
@@ -972,8 +982,70 @@
       background-repeat: no-repeat
       box-shadow: $box_shadow
 
-  .preview_block
-    margin-bottom: 80px
+
+    .additional_info
+      position: relative
+      width: 100%
+      height: auto
+      padding: 30px 130px 30px 30px
+      font-size: 18px
+      font-weight: 500
+      border:
+        left: 4px solid $accent
+      background-color: $white
+      box-shadow: $comment_shadow
+      margin: 50px 0
+      .categories
+        margin-bottom: 5px
+        a
+          display: inline-block
+          margin-right: 8px
+          color: $blue
+          &:after
+            content: ', '
+          &:last-child
+            &:after
+              display: none
+
+      .post_date
+        font-weight: 300
+        font-size: 16px
+
+      .common_author
+        position: absolute
+        right: 30px
+        top: calc(50% - 60px)
+        width: 70px
+        height: 70px
+        border-radius: 50%
+        background-size: 100% 100%
+        background-position: center
+        background-repeat: no-repeat
+        transition: background-size .5s ease-in-out
+        svg
+          height: 120px
+          width: auto
+          filter: $white_shadow
+          .str2
+            fill: $white
+          .str3
+            fill: $accent
+
+      .currient_author
+        position: absolute
+        right: 30px
+        top: calc(50% - 35px)
+        width: 70px
+        height: 70px
+        border-radius: 50%
+        background-size: 100% 100%
+        background-position: center
+        background-repeat: no-repeat
+        transition: background-size .5s ease-in-out
+        &:hover
+          background-size: 105% 105%
+
+
 
 
 .the_content
@@ -1032,6 +1104,7 @@
 
   i, em
     font-style: italic
+
 
 .the_blog_galary_wrapper
   width: 100%
@@ -1100,5 +1173,265 @@
             height: 20px
             fill: $white
             filter: $white_shadow
+
+
+
+
+.the_comments_block
+  width: 100%
+  height: auto
+  padding: 50px 0
+  .comment
+    width: 100%
+    height: auto
+    min-height: 100px
+    padding: 20px 20px 20px 100px
+    position: relative
+    margin-bottom: 30px
+    border-left: 4px solid $accent
+    box-shadow: $comment_shadow
+    background-color: $white
+    .avatar_wrapper
+      position: absolute
+      left: 20px
+      top: 20px
+      width: 60px
+      height: 60px
+      border-radius: 50%
+      display: flex
+      justify-content: center
+      align-items: center
+      font-size: 40px
+      color: $white
+      text-transform: uppercase
+      font-weight: bold
+    .author_wrapper
+      width: 100%
+      height: auto
+      cursor: default
+      .name
+        font-size: 20px
+        font-weight: bold
+      .date
+        color: $col1
+        margin-bottom: 10px
+    .commentmetadata
+      position: absolute
+      top: 8px
+      right: 10px
+      color: $blue
+      font-size: 14px
+      &:hover
+        text-decoration: underline
+  .comment-respond
+    width: 100%
+    height: auto
+    padding: 30px 20px
+    border-left: 4px solid $accent
+    box-shadow: $comment_shadow
+    background-color: $white
+    .comment-reply-title
+      width: 100%
+      height: auto
+      font-size: 20px
+      font-weight: bold
+    .comment-form
+      width: 100%
+      height: auto
+      p
+        width: 100%
+        height: auto
+        margin-bottom: 30px
+        display: flex
+        flex-direction: row
+        label
+          font-size: 20px
+          font-weight: bold
+          width: 20%
+          color: $blue
+        input, textarea
+          width: 75%
+          display: block
+          margin-left: auto
+          background-color: transparent
+          border: none
+          outline: none
+          box-shadow: $comment_shadow
+          padding: 15px 20px
+          resize: none
+          &::placeholder
+            color: $col1
+        input
+          height: 50px
+          box-shadow: $comment_shadow
+          &[type=submit]
+            background-color: $blue
+            border: none
+            color: $white
+            font-weight: bold
+            cursor: pointer
+            &:disabled
+              opacity: .2
+              cursor: not-allowed
+              &:hover
+                opacity: .2
+            &:hover
+              opacity: .8
+
+
+.the_read_also_block
+  width: 100%
+  height: auto
+  padding: 50px 0
+  .preview_list
+    width: 100%
+    height: auto
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    flex-wrap: wrap
+    .preview_item
+      position: relative
+      width: 32%
+      height: auto
+      min-height: 200px
+      background-repeat: no-repeat
+      background-size: 100% auto
+      background-position: center
+      margin-right: 2%
+      padding: 20px 20px 50px 20px
+      box-shadow: $comment_shadow
+      transition: background-size .5s ease-in-out
+      margin-bottom: 30px
+      &:hover
+        background-size: 120% auto
+        opacity: 1
+      &:nth-child(3n)
+        margin-right: 0
+      .title
+        font-size: 20px
+        line-height: 30px
+        font-weight: bold
+        color: $white
+        text-shadow: $text_shadow
+      .more
+        position: absolute
+        right: 20px
+        bottom: 20px
+        font-size: 18px
+        color: $white
+        svg
+          fill: $white
+          width: 7px
+
+
+.about_short_wrapper
+  width: 100%
+  height: auto
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  position: relative
+  box-shadow: $comment_shadow
+  padding: 30px
+  overflow: hidden
+  background-color: $white
+  border-left: 4px solid $blue
+  margin: 50px 0
+  .content_wrapper
+    width: 70%
+    height: auto
+    margin-left: auto
+    h2
+      margin-bottom: 10px
+  .promo_scene_prlx
+    position: absolute
+    left: 20px
+    top: 20px
+    width: 25%
+    svg
+      width: 100%
+      height: auto
+      filter: $white_shadow
+      .fil3
+        fill: $white
+
+
+.portfolio_short_preview
+  padding: 50px 0
+  width: 100%
+  height: auto
+  .portfolio_list
+    width: 100%
+    height: 500px
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    overflow: hidden
+    box-shadow: $comment_shadow
+    a
+      display: block
+      background-position: center
+      background-size: 115%
+      background-repeat: no-repeat
+      transition: all .5s ease-in-out
+      padding: 18px
+      position: relative
+      border-radius: 0
+      .title
+        font-size: 20px
+        font-weight: bold
+        color: $white
+      svg
+        position: absolute
+        width: 20px
+        fill: $white
+        bottom: 20px
+        right: -100%
+        transition: right .2s ease-in-out
+      &:hover
+        background-size: 130%
+        svg
+          right: 20px
+    .col
+      &.left
+        width: 70%
+        height: 300px
+      &.right
+        width: 30%
+        height: 300px
+      &.full_w
+        width: 100%
+        height: 200px
+      .c_row
+        width: 100%
+        height: 50%
+        display: flex
+        flex-direction: row
+        &.top
+          .left
+            width: 40%
+          .right
+            width: 60%
+        &.bottom
+          .left
+            width: 55%
+          .right
+            width: 45%
+        .c_col
+          width: 100%
+          height: 100%
+
+
+
+
+
+
+
+
+
+
+
+
 @import "media"
 @import "animation"
